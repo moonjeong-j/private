@@ -33,7 +33,7 @@ https://github.com/moonjeong-j/private/assets/102526342/ac81e4f1-f94f-4c7d-89eb-
 ![twodigit_ai_logo_white](https://github.com/moonjeong-j/private/assets/102526342/1ca57b19-ae66-49f0-892a-b89a33e47cb1)
 
 
-
+수정수정
 
 
 
