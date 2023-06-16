@@ -1,13 +1,8 @@
-
-
 # backend server 실행방법 및 log보는 법 팀내 교육 자료 
-
-
 
 ## backend server 실행방법 
 
 **theme_classification** 
-
 
 ~~~
 conda activate twodigit_theme_t5
@@ -29,8 +24,6 @@ cd /work/file_server
 pm2 start file_server.py --interpreter python 
 ~~~
 
-
-
 ## pm2 로그 형식
 
 #### pm2 서버 로그 형식
@@ -38,9 +31,7 @@ pm2 start file_server.py --interpreter python
 ~~~
 {id}|{name}           | {date_time}                  - {debug_level}  - {debug_message}
 ~~~
-
 #### 예시
-
 ~~~
 11  |temp_generation  | 2023-06-16 15:24:06,963	      - DEBUG         - [OPENAPI] clustering
 ~~~
@@ -61,9 +52,7 @@ pm2 start file_server.py --interpreter python
 10|theme_generation_server  | 2023-06-16 15:32:06,177 - DEBUG - generation title: 툴젠, 유전자교정 CAR-T 세포치료제 호주 이어 중국에 기술이전
 ~~~
 
-
 ## engine별, api별 log
-
 
 ### theme_classification server
 
@@ -109,8 +98,6 @@ pm2 start file_server.py --interpreter python
 9|server  |   "message": "Input payload validation failed"
 9|server  | }
 ~~~
-
-
 
 #### 2. /tf_inference
 
@@ -207,8 +194,6 @@ pm2 start file_server.py --interpreter python
 9|server  |   "error": "list index out of range"
 9|server  | }
 ~~~
-
-
 
 ### theme_generation server
 
@@ -431,6 +416,3 @@ pm2 start file_server.py --interpreter python
 ​	**4-3. json 요청값이 모두있으나, title+body 길이가 5미만인 경우**
 
 ​		동일
-
-
-
