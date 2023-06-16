@@ -65,7 +65,7 @@ pm2 start file_server.py --interpreter python
 ## engine별, api별 log
 
 
-### theme_classification server api
+### theme_classification server
 
 #### 1. /t5_inference 
 ​ **1-1. json 형식에 맞고, 값이 다 있는 경우**
@@ -210,7 +210,7 @@ pm2 start file_server.py --interpreter python
 
 
 
-### theme_generation server api
+### theme_generation server
 
 #### 1. /clustering
 ​	**1-1. 맞는 csv를 보냈을 경우**
